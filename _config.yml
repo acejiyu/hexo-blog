@@ -3,10 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Acejy'Blog # 修改标题
+subtitle: 'Just do It' # 修改副标题
 description: ''
 keywords:
+author: Ace Jiyu
 language: zh-CN # 修改显示语言
 timezone: ''
 
