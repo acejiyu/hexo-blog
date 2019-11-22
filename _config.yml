@@ -7,8 +7,7 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+language: zh-CN # 修改显示语言
 timezone: ''
 
 # URL
@@ -96,3 +95,20 @@ theme: next # 修改主题
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+# 订阅
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
