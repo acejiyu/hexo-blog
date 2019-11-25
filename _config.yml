@@ -98,29 +98,29 @@ deploy:
   type: ''
 
 # 订阅
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
+# feed:
+#   type: atom
+#   path: atom.xml
+#   limit: 20
+#   hub:
+#   content:
+#   content_limit: 140
+#   content_limit_delim: ' '
 
 # 搜索
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+# search:
+#   path: search.xml
+#   field: post
+#   format: html
+#   limit: 10000
 
 #博客文字统计
-symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
-  exclude_codeblock: false
+# symbols_count_time:
+#   symbols: true
+#   time: true
+#   total_symbols: false
+#   total_time: false
+#   exclude_codeblock: false
 
 # 添加页面宠物
 live2d:
