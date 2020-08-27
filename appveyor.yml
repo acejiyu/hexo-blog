@@ -5,7 +5,8 @@ environment:
     secure: 5mybDUG3FlaqEwbtaRLGvWnkFlh9aybC8QIXNpG/cu7CKnsfWUre/cH2bwsJrTkU
 
 install:
-  - node --version
+  # - node --version
+  - node 12.18.3
   - npm --version
   - npm install
   - npm install hexo-cli -g
