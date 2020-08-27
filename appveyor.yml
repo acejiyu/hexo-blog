@@ -3,6 +3,8 @@ clone_depth: 5
 environment:
   access_token:
     secure: 5mybDUG3FlaqEwbtaRLGvWnkFlh9aybC8QIXNpG/cu7CKnsfWUre/cH2bwsJrTkU
+  matrix:
+    - nodejs_version: '12'
 
 install:
   # Update Node.js
